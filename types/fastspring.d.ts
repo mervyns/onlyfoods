@@ -16,6 +16,8 @@ interface FastSpring {
 
 declare global {
   interface Window {
-    fastspring?: FastSpring;
+    fastspring: FastSpring;
   }
 }
+
+export {};

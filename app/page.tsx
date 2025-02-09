@@ -41,7 +41,6 @@ const recipes = [
 
 declare global {
   interface Window {
-    fastspring?: any;
     onPopupClose?: (data: any) => void;
   }
 }

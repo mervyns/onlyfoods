@@ -114,7 +114,7 @@ export function SubscriptionPlans() {
             </div>
             <div className="pt-6 pb-8 px-6">
               <h4 className="text-sm font-medium text-gray-900 tracking-wide uppercase">
-                What's included
+                What&apos;s included
               </h4>
               <ul className="mt-6 space-y-4">
                 {plan.features.map((feature, index) => (

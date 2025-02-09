@@ -1,7 +1,6 @@
 'use client';
 
 import { ShoppingCart } from "lucide-react";
-import { useEffect, useState } from "react";
 
 export function Header() {
   return (

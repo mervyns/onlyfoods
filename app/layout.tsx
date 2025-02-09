@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           id="fsc-api"
           src="https://sbl.onfastspring.com/sbl/1.0.1/fastspring-builder.min.js"
-          type="text/javascript"
+          strategy="afterInteractive"
           data-storefront="mervyn.test.onfastspring.com/popup-mervyn"
           data-continuous="true"
           data-popup-closed="onPopupClose"
