@@ -54,7 +54,7 @@ export function SubscriptionPlans() {
   const handleSubscribe = (productPath: string) => {
     if (!isMounted) return;
     
-    const fs = (window as any).fastspring?.builder;
+    const fs = window.fastspring?.builder;
     if (!fs) return;
 
     try {

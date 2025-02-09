@@ -1,7 +1,5 @@
 'use client';
 
-import Image from "next/image";
-import { ShoppingCart, Search } from 'lucide-react';
 import { RecipeCard } from './components/RecipeCard';
 import { Header } from "./components/Header";
 import { SubscriptionPlans } from './components/SubscriptionPlans';
@@ -78,7 +76,7 @@ export default function Home() {
             <span className="block text-blue-600">Made Simple</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-500">
-            OnlyFoods brings you authentic, restaurant-quality Asian recipes with detailed instructions, video guides, and ingredient lists. Whether you're a beginner or a seasoned chef, we'll help you master the art of Asian cooking.
+            OnlyFoods brings you authentic, restaurant-quality Asian recipes with detailed instructions, video guides, and ingredient lists. Whether you&apos;re a beginner or a seasoned chef, we&apos;ll help you master the art of Asian cooking.
           </p>
           <div className="mt-8 flex justify-center space-x-8 text-lg text-gray-600">
             <div className="flex items-center">
