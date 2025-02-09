@@ -40,10 +40,15 @@ yarn dev
 
 The application will be available at [http://localhost:3000](http://localhost:3000).
 
-## Features
+## Things that I experimented and tried setting up
+- Simple Digital Products with Digital Downloads (ie. Recipe PDFs)
+- Subsription Plans (ie. Weekly & Monthly Recipe Subscriptions)
+- Cross-selling on pop-up carts
+- Implementing SBL in certain components
+- Customization of checkout
 
-- Browse authentic Asian recipes
-- Purchase individual recipes
-- Subscribe to weekly or monthly recipe plans
-- FastSpring integration for secure payments
-- Responsive design for mobile and desktop
+## Questions and Observations
+- In the case of setting up a product with FastSpring, make sure to configure the `productPath` correctly.
+- When creating the product in product dashboard, the entire product information will not be saved if there is one field that has an error.
+- No loading state exposed by FastSpring Store Builder Library, so I was unable to add a loading state for the product information etc. whilst loading it from the FastSpring API.
+- User interface for setting up products wasn't entirely intuitive due to the ambiguity of classification of products.
