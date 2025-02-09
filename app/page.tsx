@@ -40,9 +40,7 @@ const recipes = [
 ];
 
 declare global {
-  interface Window {
-    onPopupClose?: (data: any) => void;
-  }
+  interface Window {}
 }
 
 export default function Home() {
