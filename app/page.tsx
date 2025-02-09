@@ -39,10 +39,6 @@ const recipes = [
   }
 ];
 
-declare global {
-  interface Window {}
-}
-
 export default function Home() {
   useEffect(() => {
     // Initialize FastSpring data
